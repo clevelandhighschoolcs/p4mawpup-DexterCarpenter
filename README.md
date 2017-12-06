@@ -1,5 +1,7 @@
 # WebScraper
 
+### By Dexter Carpenter
+
 This repository is being used to keep track of my webscraper versions and progress
 
 Below are the instuctions on how to install my websraper
@@ -14,7 +16,9 @@ There are several folders in my repository:
 
 **'Notes'**
 
-- Class notes and other notes that I used in making the scraper; these are mostly for myself. My Flowchart is also kept in this folder (as well as down below)
+- Class notes and other notes that I used in making the scraper; these are mostly for myself.
+- My Flowchart is also kept in this folder (as well as down below)
+	- both the PNG and the XML file are kept here
 
 **'Versions'**
 
@@ -23,9 +27,11 @@ There are several folders in my repository:
 **'environment'**
 
 - This folder was used to host my virtual environment.
-- I recommend you use this folder as well for you virtual environment.
-- Also included in the repository is a .gitignore file. This file ignores the .lpvenv file generated in the 'environment' file - making 'environment' a great place to host your virtual environemnt.
+- I recommend you use this folder as well for your virtual environment.
 - Located in this folder is also a file called 'WebScraper8.py'. This is the file that is my current version of my scraper. This is the file you should run to access my scraper.
+
+**Other**
+- Also included in the repository is a .gitignore file. This file ignores the .lpvenv file generated in the 'environment' file - making 'environment' a great place to host your virtual environemnt.
 
 ________________________________________________________________________________________________________________________________________
 
@@ -45,6 +51,14 @@ Before running, be sure you install BeautifulSoup 4 in your virtual environment:
 	pip install BeautifulSoup4
 
 You're all set! Happy Scraping!
+
+________________________________________________________________________________________________________________________________________
+
+**Other Attributions**
+
+I also would like to link a peer's webscraper that I looked at to help form my own:
+
+https://github.com/ErgoShrimp/webscrape
 
 ________________________________________________________________________________________________________________________________________
 
