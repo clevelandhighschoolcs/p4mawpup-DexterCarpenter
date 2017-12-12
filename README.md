@@ -49,7 +49,8 @@ Before running, be sure you install BeautifulSoup 4 in your virtual environment:
 
 	easy_install pip  
 	pip install BeautifulSoup4
-
+	pip install Twilio
+	
 You're all set! Happy Scraping!
 
 ________________________________________________________________________________________________________________________________________
