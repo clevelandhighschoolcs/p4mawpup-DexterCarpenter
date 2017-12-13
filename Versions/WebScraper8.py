@@ -16,8 +16,14 @@ cd C:\Users\dexte\Documents\GitHub\WebScraper\environment
 """
 
 # import libraries
+import sys
 import urllib2
-from bs4 import BeautifulSoup
+try:
+	from bs4 import BeautifulSoup
+except Exception as e:
+	print "Are you sure you have BeautifulSoup installed?"
+	print "Type 'pip install BeautifulSoup4' in the terminal to install it."
+	sys.exit()
 import time
 from twilio.rest import Client
 
