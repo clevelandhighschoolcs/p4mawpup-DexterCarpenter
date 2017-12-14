@@ -47,7 +47,6 @@ I am using Python 2.7.14
 
 Before running, be sure you install BeautifulSoup 4 in your virtual environment:
 
-	easy_install pip  
 	pip install BeautifulSoup4
 	pip install Twilio
 	
@@ -57,9 +56,11 @@ ________________________________________________________________________________
 
 **Other Attributions**
 
-I also would like to link a peer's webscraper that I looked at to help form my own:
+I also would like to link two peers' webscrapers that I looked at to help form my own:
 
 https://github.com/ErgoShrimp/webscrape
+
+https://github.com/clevelandhighschoolcs/p4mawpup-hunterjkey
 
 ________________________________________________________________________________________________________________________________________
 
