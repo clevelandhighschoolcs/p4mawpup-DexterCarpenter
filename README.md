@@ -23,12 +23,13 @@ There are several folders in my repository:
 **'Versions'**
 
 - a folder holding all my previous versions. I did this because every time I push from local I backup everything.
+- DO NOT RUN THESE FILES -- I CANNOT GUARANTEE THEY WORK
 
 **'environment'**
 
 - This folder was used to host my virtual environment.
 - I recommend you use this folder as well for your virtual environment.
-- Located in this folder is also a file called 'WebScraper8.py'. This is the file that is my current version of my scraper. This is the file you should run to access my scraper.
+- Located in this folder is also a file called 'WebScraperFinal.py'. This is the file that is my current version of my scraper. This is the file you should run to access my scraper.
 
 **Other**
 - Also included in the repository is a .gitignore file. This file ignores the .lpvenv file generated in the 'environment' file - making 'environment' a great place to host your virtual environemnt.
@@ -50,6 +51,16 @@ Before running, be sure you install BeautifulSoup 4 in your virtual environment:
 	pip install BeautifulSoup4
 	pip install Twilio
 	
+Find the file called 'WebScraperFinal.py' in my 'environment' Folder
+
+Set up your virtual environment in this foler. Or, if you prefer, copy the file to your own virtual environment.
+
+Run the program in your virtual environment using the command:
+
+	python WebScraperFinal.py
+
+Follow the prompts, you're almost there.
+
 You're all set! Happy Scraping!
 
 ________________________________________________________________________________________________________________________________________
