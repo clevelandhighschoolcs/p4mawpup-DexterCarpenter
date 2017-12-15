@@ -135,20 +135,19 @@ def scraper():
 	
 	if tagcountnow == tagcountold:
 		print 'No Change'
-		body = 'No Change'
 	elif tagcountnow != tagcountold:
 		print 'Change!'
-		body = 'Change!'
+		if Twillo_null == False:
+			client = Client(account_sid, auth_token)
+			client.messages.create(
+				body= 'Change!',
+				to=my_phone_number,
+				from_=twilio_phone_number
+			)
 	tagcountold = tagcountnow
 	
 	#This sends the message to your phone
-	if Twillo_null == False:
-		client = Client(account_sid, auth_token)
-		client.messages.create(
-			body=body,
-			to=my_phone_number,
-			from_=twilio_phone_number
-		)
+
 	
 
 while True:
